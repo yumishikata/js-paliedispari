@@ -1,0 +1,12 @@
+
+.no-visibility {
+    visibility: hidden;
+}
+
+.visibility {
+    visibility: visible;
+}
+
+#numero {
+    width: 200px;
+}
