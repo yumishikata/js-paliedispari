@@ -58,6 +58,8 @@ function sommaNumeriPari(x , y) {
 
 document.getElementById("pari").addEventListener('click' , 
 function (){
+    var button = document.getElementById("pari");
+    button.classList.add("bg_yellow");
     var element = document.getElementById("div_num");
     element.classList.add("visibility");
     document.getElementById("invio_num").addEventListener('click' , 
@@ -88,6 +90,8 @@ function (){
 
 document.getElementById("dispari").addEventListener('click' , 
 function (){
+    var button = document.getElementById("dispari");
+    button.classList.add("bg_yellow");
     var element = document.getElementById("div_num");
     element.classList.add("visibility");
     document.getElementById("invio_num").addEventListener('click' , 
